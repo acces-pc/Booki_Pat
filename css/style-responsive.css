@@ -6,7 +6,7 @@
 @media screen and (min-width: 1024px){
     main {
                 max-width: 1440px;
-                margin: 0px auto;
+                margin: 0 auto;
               
         }
 
@@ -161,7 +161,7 @@ width:100%;
 .menuhaut {width:100%;  display: flex; flex-direction: column; align-items: center; }
 .menuhaut div{width:100%; display: flex; justify-content:space-around; }
 .menuhaut a{width:50%; }
-.lienhaut {margin:0px; padding-bottom: 10px; text-align: center; }
+.lienhaut {margin:0px; text-align: center; }
 .lienhaut:hover{ border-width: 0px 0px 2px 0px; border-color: #0065FC; padding-bottom: 8px;  }
 
 .menubas { margin: 0px 10px;}
@@ -217,10 +217,11 @@ nav {display: flex; justify-content: center;}
 
     
 .populaires-title { 
-   width:100%;
+     
    display: flex;
    justify-content: space-between;
-   
+   margin: 10px 30px;
+
   }
 
 .populaires-cards {
@@ -238,7 +239,7 @@ nav {display: flex; justify-content: center;}
 }
 
 .hebergements-title { 
-    margin: 20px 20px;
+    margin: 10px 30px;
    }
 
 .hebergements-cards {
@@ -265,6 +266,11 @@ border-radius: 20px 20px 0px 0px;
 }
 
 
+.section-title-ap { 
+    margin: 0px 30px;
+    
+    }
+
 /****** ACTIVITES ***********/ 
 
 .activites  {
@@ -275,6 +281,11 @@ border-radius: 20px 20px 0px 0px;
     justify-content: center;
     text-align: left;
 }
+
+.activites-title { 
+    margin: 30px 0px;
+   }
+
 
 .activite-cards  {
     width:100%;
@@ -292,8 +303,8 @@ height:141px;
 /****** FOOTER ***********/ 
 
 .footer {
-    margin: 0px;
-    padding: 0px;
+    
+     padding: 0px;
      display: flex;
      flex-direction: column;
      width:100%;
@@ -302,8 +313,8 @@ height:141px;
 }
 
 .footer div {
-    margin-left: 0px;
-    margin-bottom: 0px;
+    margin: 0 auto;
+    padding:0 80px;
     color:black;
     width: 100%;
 }
